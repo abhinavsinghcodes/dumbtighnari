@@ -1,0 +1,157 @@
+body {
+    background-color: #E0FBE2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    font-family: "Jua";
+}
+
+@media screen and (max-width: 320px) {
+    #img5 {
+        display: none;
+    }
+    #home {
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #img1,
+    #img2,
+    #img3,
+    #img4,
+    #img5 {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #img1,
+    #img2,
+    #img3,
+    #img4,
+    #img5 {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 1540px) {
+    #img1,
+    #img2,
+    #img3,
+    #img4,
+    #img5 {
+        height: 400px; 
+    }
+}
+
+.parent {
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    gap: 10px;
+}
+
+.child1 {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    background-color: #B0EBB4;
+}
+
+.child1 img {
+    height: 90%;
+    width: auto;
+    object-fit: contain;
+    margin: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.child2 {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    background-color: #B0EBB4;
+    border-radius: 30px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-left: 15px;
+}
+
+#popular-anime-text {
+    text-align: start;
+}
+
+.child3 {
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    background-color: #B0EBB4;
+    border-radius: 30px;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    text-align: start;
+}
+
+.child3 img {
+    height: 100px;
+    width: auto;
+}
+
+.slides {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    height: fit-content;
+    width: 94%;
+    margin: auto;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.child4 {
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    background-color: #B0EBB4;
+    border-radius: 30px;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    text-align: start;
+}
+
+.slides img {
+    height: 100px;
+    width: auto;
+}
+
+.child5 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #B0EBB4;
+    border-radius: 30px;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
