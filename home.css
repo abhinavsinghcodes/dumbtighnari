@@ -8,7 +8,7 @@ body {
     font-family: "Jua";
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
     #img5 {
         display: none;
     }
